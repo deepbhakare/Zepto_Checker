@@ -39,7 +39,16 @@ WATCH_PRODUCTS = {
     "HW 2019 Audi R8 Spyder":                     "758df8ff-4c5e-4859-bf66-ffd70adabfbf",
 
     # ── ADD MORE BELOW ────────────────────────────────────────────────────────
-    # "Label": "pvid from zepto URL",
+    # How to add a new car:
+    # 1. Open Zepto app → find the product → tap Share → copy the link
+    # 2. Extract the pvid from the URL:
+    #    https://www.zepto.com/pn/hot-wheels-.../pvid/XXXX-XXXX  ← copy this part
+    # 3. Add a new line below in the same format:
+    #    "Your Car Label": "pvid-here",
+    #
+    # Example (currently in stock — use this to test notifications work):
+    "TEST HW Birthday Burner (IN STOCK)": "4e7ff3b5-31df-43d4-95a3-c0e04058a4a5",
+    # https://www.zepto.com/pn/hot-wheels-worldwide-basic-car-hw-birthday-burner-toy-car-for-kids-and-collectors/pvid/4e7ff3b5-31df-43d4-95a3-c0e04058a4a5
 }
 
 # ─── CREDENTIALS ──────────────────────────────────────────────────────────────
